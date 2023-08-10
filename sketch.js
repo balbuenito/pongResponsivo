@@ -50,6 +50,7 @@ function movimentaBolinha() {
     velocidadey = velocidadey * -1;
 }
 function mostraRaquete(x,y) {
+  fill{"pink"};
   rect(x, y, comprimentoRaq, alturaRaq);
 }
 function movimentaMinhaRaq (){
